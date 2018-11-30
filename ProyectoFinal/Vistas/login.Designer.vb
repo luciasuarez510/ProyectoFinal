@@ -32,7 +32,7 @@ Partial Class login
         'CmbComisaria
         '
         Me.CmbComisaria.FormattingEnabled = True
-        Me.CmbComisaria.Location = New System.Drawing.Point(284, 205)
+        Me.CmbComisaria.Location = New System.Drawing.Point(269, 206)
         Me.CmbComisaria.Name = "CmbComisaria"
         Me.CmbComisaria.Size = New System.Drawing.Size(229, 21)
         Me.CmbComisaria.TabIndex = 0
@@ -42,7 +42,7 @@ Partial Class login
         '
         Me.CmbOficial.Enabled = False
         Me.CmbOficial.FormattingEnabled = True
-        Me.CmbOficial.Location = New System.Drawing.Point(284, 281)
+        Me.CmbOficial.Location = New System.Drawing.Point(269, 282)
         Me.CmbOficial.Name = "CmbOficial"
         Me.CmbOficial.Size = New System.Drawing.Size(229, 21)
         Me.CmbOficial.TabIndex = 1
@@ -60,7 +60,7 @@ Partial Class login
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(281, 178)
+        Me.Label1.Location = New System.Drawing.Point(266, 179)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(87, 13)
         Me.Label1.TabIndex = 3

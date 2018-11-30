@@ -1,0 +1,13 @@
+Falta es vistas: 
+un AGREGAR DENUNCIA -> ponemos si està en alguna dependencia (siempre va a comenzar el historial con un què paso primero) 
+un BUSCAR DENUNCIA 
+por denunciante o denunciado segun el DNI (con esto sabemos si es denunciado o denunciante) 
+
+COn esto ya no hacemos un buscar persona 
+
+Falta pantalla de verificaciòn ("Está seguro de la operación?" SI, NO) 
+
+
+Instalamos la extension de GITHUB para agregar a Taller2PU como follower y collaborator 
+(buscarlo en la pagina)
+(la extension està en herramientas) 
