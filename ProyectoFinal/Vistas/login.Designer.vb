@@ -25,6 +25,7 @@ Partial Class login
         Me.CmbComisaria = New System.Windows.Forms.ComboBox()
         Me.CmbOficial = New System.Windows.Forms.ComboBox()
         Me.btnIngreso = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'CmbComisaria
@@ -54,22 +55,34 @@ Partial Class login
         Me.btnIngreso.Text = "Ingresar"
         Me.btnIngreso.UseVisualStyleBackColor = True
         '
-        'Form4
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(368, 140)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Label1"
+        '
+        'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Entidades.My.Resources.Resources.Sin_título
         Me.ClientSize = New System.Drawing.Size(560, 446)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnIngreso)
         Me.Controls.Add(Me.CmbOficial)
         Me.Controls.Add(Me.CmbComisaria)
-        Me.Name = "Form4"
+        Me.Name = "login"
         Me.Text = "Form4"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents CmbComisaria As System.Windows.Forms.ComboBox
     Friend WithEvents CmbOficial As System.Windows.Forms.ComboBox
     Friend WithEvents btnIngreso As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class
