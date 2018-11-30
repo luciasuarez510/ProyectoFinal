@@ -1,0 +1,35 @@
+Creando las clases Persona, Comisaria, 
+y era necesario hacer un formulario de "logueo"
+Necesitamos tener el acceso y las acciones con las que me manejo. Quedan registradas con las comisarias y los oficiales
+
+Entonces levantarComisaria() con LevantarOficales() dentro. (Lo pongo en controladores y en base de datos y en entidades)
+
+Por un lado hay un metodo que mete oficiales que pertencen a la cmoisaria
+Por otro lado, la consulta donde completo ese objeto desde la base de datos(Uno completa el objeto, el otro le da valores) 
+
+Para que no haya ningun tipo de confusión sobre què oficial lo hizo y en què comisaria porque al principio del programa se selecciona eso. 
+-----
+De comisaria: Get ID y Get Nombre 
+Y get Oficiales, que muestra todos los oficiales 
+
+còmo levantar los datos de la base
+
+Herencia de denuncia Oral o escrita
+Clase Denuncia (todos los datos del UML excepto tipo) 
+***con herencia determinar el destino de la denuncia 
+
+-----
+*Struc
+que esta formado por un Date y por un Enum Lugar, comisaria, dependencia o fiscalia 
+en el struct hay un tipo persona porque tenemos la fecha, donde està y quien hizo algun tipo de modificacion (para el seguimiento) 
+
+Hacer una clase nueva de Historial de Denuncia porque va dejando un registro. Donde se guardan los datos de arriba ^
+Ejemplo javier Ficha, con historial de Ficha a medida que se movia por el lab, registraba dònde estaba y què se habia hecho (En una sola fila) Lugar, quien atendio y fecha. 
+*Mejor usamos una clase
+
+-----
+***...Mejor no hagamos herencia para que se amolde al esquema de Base de datos.
+consejo de javier: Ver UML de paradigmas e intentar seguir eso. 
+
+Entonces Herencia????????? 
+

@@ -1,0 +1,13 @@
+Discutimos como llevar a cabo la funcion LevantarComisarias y LevantarOficiales.
+en un principio LevantarOficiales estaria adentro del Objeto Comisarias, ya que asi al momento de crear cada comisaria
+estas mismas llamarian a los oficiales desde la base de dato.
+luego decidimos que seria mejor no mezclar capas y mantener la estructura Entidades/controlador/Modelo(BD) 
+Para ello decidimos que el modelo tenga una calse de acceso a base de datos que recibe la informacion de una conexion desde el controlador.
+El controlador Manipula el datareader y el objeto de base de datos solo se encarga de ejecutar las consultas a traves de la conexion.
+luego el controlador finaliza la conexion a la base de datos.
+
+https://snipplr.com/view/13059/ usamos esta info 
+
+
+Al elegir la comisaria en el Login, recien podriamos hacer la consulta para Levantar Oficiales de SOLO esa comisaria.
+Eso admitiria muchos menos datos 

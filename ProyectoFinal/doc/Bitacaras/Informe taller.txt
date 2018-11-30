@@ -1,0 +1,27 @@
+Verificar que el oficial no sea quien hace la denuncia
+Verificar que una persona comun no tome la denuncia(se arregla con el logueo)
+
+Hacer un Enum de Errores que pueden salir 
+Hacer un listado de Personal que pueda tomar una denuncia 
+
+Buscar la comisaria en la que tomo/muestro la denuncia cuando realizo la tarea y no antes
+
+Posible logueo de persona: Hacer busqueda de comisarias y oficiales, si coinciden y da True entonces pasa a la siguiente vista. Sino no 
+
+poder buscar denuncias agregadas por otras comisarias, pero no se puede agregar ni editar. 
+Comisarias es un objeto que siempre queda en memoria con la lista de oficiales. Elijo comisarias, y recien traigo el listado de personas. Y recien inicio
+O, puedo traer todo de memoria desde el principio.
+
+En la busqueda de denuncia, dependiendo de si es ORAL u ESCRITO, poder mover la denuncia a otra dependencia o a fiscalia. (Hacer con herencia)
+Consulto por atributo, o fijarme el tipo. La opcion mover sale de acuerdo al tipo con un Enum (oral u escrito) Segun el enum sè a donde lo llevo.
+
+1. Logueo. Se elije comisaria y persona que loguea, ingresar, "contraseña", 
+2. segunda vista (con opcion de deslogueo? o sòlo cerrar.) donde se toman y muestran denuncias
+3. 
+
+
+
+Informe: 	Escribir Por qué usamos herencia, en vez de hacerlo atributo. 
+		Por qué etapa se comienza
+		Adjuntar el UML, los pimeros diseños etc
+		y eso.  
