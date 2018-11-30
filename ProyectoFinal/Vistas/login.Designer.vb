@@ -26,14 +26,15 @@ Partial Class login
         Me.CmbOficial = New System.Windows.Forms.ComboBox()
         Me.btnIngreso = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnCerrarLogin = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'CmbComisaria
         '
         Me.CmbComisaria.FormattingEnabled = True
-        Me.CmbComisaria.Location = New System.Drawing.Point(292, 204)
+        Me.CmbComisaria.Location = New System.Drawing.Point(284, 205)
         Me.CmbComisaria.Name = "CmbComisaria"
-        Me.CmbComisaria.Size = New System.Drawing.Size(195, 21)
+        Me.CmbComisaria.Size = New System.Drawing.Size(229, 21)
         Me.CmbComisaria.TabIndex = 0
         Me.CmbComisaria.Text = "Comisaria"
         '
@@ -41,17 +42,17 @@ Partial Class login
         '
         Me.CmbOficial.Enabled = False
         Me.CmbOficial.FormattingEnabled = True
-        Me.CmbOficial.Location = New System.Drawing.Point(292, 280)
+        Me.CmbOficial.Location = New System.Drawing.Point(284, 281)
         Me.CmbOficial.Name = "CmbOficial"
-        Me.CmbOficial.Size = New System.Drawing.Size(195, 21)
+        Me.CmbOficial.Size = New System.Drawing.Size(229, 21)
         Me.CmbOficial.TabIndex = 1
         Me.CmbOficial.Text = "Oficial"
         '
         'btnIngreso
         '
-        Me.btnIngreso.Location = New System.Drawing.Point(343, 369)
+        Me.btnIngreso.Location = New System.Drawing.Point(405, 354)
         Me.btnIngreso.Name = "btnIngreso"
-        Me.btnIngreso.Size = New System.Drawing.Size(75, 23)
+        Me.btnIngreso.Size = New System.Drawing.Size(75, 39)
         Me.btnIngreso.TabIndex = 2
         Me.btnIngreso.Text = "Ingresar"
         Me.btnIngreso.UseVisualStyleBackColor = True
@@ -59,11 +60,20 @@ Partial Class login
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(201, 207)
+        Me.Label1.Location = New System.Drawing.Point(281, 178)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(87, 13)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Elija su comisaria"
+        '
+        'btnCerrarLogin
+        '
+        Me.btnCerrarLogin.Location = New System.Drawing.Point(284, 354)
+        Me.btnCerrarLogin.Name = "btnCerrarLogin"
+        Me.btnCerrarLogin.Size = New System.Drawing.Size(75, 39)
+        Me.btnCerrarLogin.TabIndex = 4
+        Me.btnCerrarLogin.Text = "Cerrar"
+        Me.btnCerrarLogin.UseVisualStyleBackColor = True
         '
         'login
         '
@@ -71,6 +81,7 @@ Partial Class login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Entidades.My.Resources.Resources.Sin_título
         Me.ClientSize = New System.Drawing.Size(560, 446)
+        Me.Controls.Add(Me.btnCerrarLogin)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnIngreso)
         Me.Controls.Add(Me.CmbOficial)
@@ -87,4 +98,5 @@ Partial Class login
     Friend WithEvents CmbOficial As System.Windows.Forms.ComboBox
     Friend WithEvents btnIngreso As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents btnCerrarLogin As System.Windows.Forms.Button
 End Class
