@@ -22,34 +22,24 @@ Partial Class pantallaprincipal
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnMostrarD = New System.Windows.Forms.Button()
-        Me.btnAgregarD = New System.Windows.Forms.Button()
+        Me.btnBuscarDenun = New System.Windows.Forms.Button()
         Me.btnAgregarP = New System.Windows.Forms.Button()
         Me.btnIngresarDenun = New System.Windows.Forms.Button()
         Me.btnEditar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'btnMostrarD
+        'btnBuscarDenun
         '
-        Me.btnMostrarD.Location = New System.Drawing.Point(244, 163)
-        Me.btnMostrarD.Name = "btnMostrarD"
-        Me.btnMostrarD.Size = New System.Drawing.Size(111, 48)
-        Me.btnMostrarD.TabIndex = 0
-        Me.btnMostrarD.Text = "Mostrar denuncias"
-        Me.btnMostrarD.UseVisualStyleBackColor = True
-        '
-        'btnAgregarD
-        '
-        Me.btnAgregarD.Location = New System.Drawing.Point(244, 279)
-        Me.btnAgregarD.Name = "btnAgregarD"
-        Me.btnAgregarD.Size = New System.Drawing.Size(111, 48)
-        Me.btnAgregarD.TabIndex = 1
-        Me.btnAgregarD.Text = "Agregar denuncias"
-        Me.btnAgregarD.UseVisualStyleBackColor = True
+        Me.btnBuscarDenun.Location = New System.Drawing.Point(256, 320)
+        Me.btnBuscarDenun.Name = "btnBuscarDenun"
+        Me.btnBuscarDenun.Size = New System.Drawing.Size(111, 48)
+        Me.btnBuscarDenun.TabIndex = 0
+        Me.btnBuscarDenun.Text = "Buscar denuncias"
+        Me.btnBuscarDenun.UseVisualStyleBackColor = True
         '
         'btnAgregarP
         '
-        Me.btnAgregarP.Location = New System.Drawing.Point(404, 279)
+        Me.btnAgregarP.Location = New System.Drawing.Point(413, 189)
         Me.btnAgregarP.Name = "btnAgregarP"
         Me.btnAgregarP.Size = New System.Drawing.Size(111, 48)
         Me.btnAgregarP.TabIndex = 2
@@ -58,7 +48,7 @@ Partial Class pantallaprincipal
         '
         'btnIngresarDenun
         '
-        Me.btnIngresarDenun.Location = New System.Drawing.Point(404, 163)
+        Me.btnIngresarDenun.Location = New System.Drawing.Point(256, 189)
         Me.btnIngresarDenun.Name = "btnIngresarDenun"
         Me.btnIngresarDenun.Size = New System.Drawing.Size(111, 48)
         Me.btnIngresarDenun.TabIndex = 3
@@ -67,7 +57,7 @@ Partial Class pantallaprincipal
         '
         'btnEditar
         '
-        Me.btnEditar.Location = New System.Drawing.Point(404, 217)
+        Me.btnEditar.Location = New System.Drawing.Point(256, 243)
         Me.btnEditar.Name = "btnEditar"
         Me.btnEditar.Size = New System.Drawing.Size(111, 30)
         Me.btnEditar.TabIndex = 4
@@ -83,16 +73,14 @@ Partial Class pantallaprincipal
         Me.Controls.Add(Me.btnEditar)
         Me.Controls.Add(Me.btnIngresarDenun)
         Me.Controls.Add(Me.btnAgregarP)
-        Me.Controls.Add(Me.btnAgregarD)
-        Me.Controls.Add(Me.btnMostrarD)
+        Me.Controls.Add(Me.btnBuscarDenun)
         Me.Name = "pantallaprincipal"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents btnMostrarD As System.Windows.Forms.Button
-    Friend WithEvents btnAgregarD As System.Windows.Forms.Button
+    Friend WithEvents btnBuscarDenun As System.Windows.Forms.Button
     Friend WithEvents btnAgregarP As System.Windows.Forms.Button
     Friend WithEvents btnIngresarDenun As System.Windows.Forms.Button
     Friend WithEvents btnEditar As System.Windows.Forms.Button

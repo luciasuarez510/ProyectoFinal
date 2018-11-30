@@ -3,7 +3,7 @@
 Public Class pantallaprincipal
     Dim comisarias As New List(Of Comisaria)
     comisarias = LevantarComisarias()
-Private Sub btnMostrarD_Click(sender As Object, e As EventArgs) Handles btnMostrarD.Click
+Private Sub btnMostrarD_Click(sender As Object, e As EventArgs) Handles btnBuscarDenun.Click
 
     End Sub
     'Dentro de esta funcion estaria levantarOficiales()'

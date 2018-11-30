@@ -63,7 +63,7 @@ Partial Class IngresarPersona
         'lblDomicilio
         '
         Me.lblDomicilio.AutoSize = True
-        Me.lblDomicilio.Location = New System.Drawing.Point(242, 267)
+        Me.lblDomicilio.Location = New System.Drawing.Point(242, 265)
         Me.lblDomicilio.Name = "lblDomicilio"
         Me.lblDomicilio.Size = New System.Drawing.Size(49, 13)
         Me.lblDomicilio.TabIndex = 3
@@ -72,7 +72,7 @@ Partial Class IngresarPersona
         'lblDNI
         '
         Me.lblDNI.AutoSize = True
-        Me.lblDNI.Location = New System.Drawing.Point(242, 196)
+        Me.lblDNI.Location = New System.Drawing.Point(242, 194)
         Me.lblDNI.Name = "lblDNI"
         Me.lblDNI.Size = New System.Drawing.Size(26, 13)
         Me.lblDNI.TabIndex = 2
@@ -190,7 +190,7 @@ Partial Class IngresarPersona
         Me.btnGuardarP.Text = "Guardar"
         Me.btnGuardarP.UseVisualStyleBackColor = True
         '
-        'Form2
+        'IngresarPersona
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -214,7 +214,7 @@ Partial Class IngresarPersona
         Me.Controls.Add(Me.lblDNI)
         Me.Controls.Add(Me.lblNombre)
         Me.Controls.Add(Me.lblApellido)
-        Me.Name = "Form2"
+        Me.Name = "IngresarPersona"
         Me.Text = "Form2"
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -39,6 +39,7 @@ Partial Class login
         '
         'CmbOficial
         '
+        Me.CmbOficial.Enabled = False
         Me.CmbOficial.FormattingEnabled = True
         Me.CmbOficial.Location = New System.Drawing.Point(292, 280)
         Me.CmbOficial.Name = "CmbOficial"
@@ -58,11 +59,11 @@ Partial Class login
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(368, 140)
+        Me.Label1.Location = New System.Drawing.Point(201, 207)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(87, 13)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "Elija su comisaria"
         '
         'login
         '
@@ -74,6 +75,7 @@ Partial Class login
         Me.Controls.Add(Me.btnIngreso)
         Me.Controls.Add(Me.CmbOficial)
         Me.Controls.Add(Me.CmbComisaria)
+        Me.Enabled = False
         Me.Name = "login"
         Me.Text = "Form4"
         Me.ResumeLayout(False)
