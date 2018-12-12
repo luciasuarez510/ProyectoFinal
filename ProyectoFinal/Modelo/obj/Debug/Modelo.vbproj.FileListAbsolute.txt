@@ -1,0 +1,12 @@
+H:\Proyecto\ProyectoFinal\Modelo\bin\Debug\Modelo.dll
+H:\Proyecto\ProyectoFinal\Modelo\bin\Debug\Modelo.pdb
+H:\Proyecto\ProyectoFinal\Modelo\bin\Debug\Modelo.xml
+H:\Proyecto\ProyectoFinal\Modelo\bin\Debug\Entidades.dll
+H:\Proyecto\ProyectoFinal\Modelo\bin\Debug\Entidades.pdb
+H:\Proyecto\ProyectoFinal\Modelo\bin\Debug\Entidades.xml
+H:\Proyecto\ProyectoFinal\Modelo\obj\Debug\Modelo.vbprojResolveAssemblyReference.cache
+H:\Proyecto\ProyectoFinal\Modelo\obj\Debug\Modelo.Resources.resources
+H:\Proyecto\ProyectoFinal\Modelo\obj\Debug\Modelo.vbproj.GenerateResource.Cache
+H:\Proyecto\ProyectoFinal\Modelo\obj\Debug\Modelo.dll
+H:\Proyecto\ProyectoFinal\Modelo\obj\Debug\Modelo.xml
+H:\Proyecto\ProyectoFinal\Modelo\obj\Debug\Modelo.pdb

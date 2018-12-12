@@ -21,6 +21,24 @@
         '        Oficiales.Add(oficialX)
         '    Next
         'End Sub
+        Sub New(ByVal idd As String, ByVal nombr As String, ByVal dir As String)
+            ID = idd
+            Nombre = nombr
+            Direccion = dir
+        End Sub
+        Public ReadOnly Property GetId() As String
+            Get
+                Return ID
+            End Get
+        End Property
+        Public Property GSNombre() As String
+            Get
+                Return Nombre
+            End Get
+            Set(value As String)
+                Nombre = value
+            End Set
+        End Property
     End Class
 End Namespace
 

@@ -11,6 +11,13 @@ Namespace Entidades
         Private Direccion As String
         Private dni As Integer
         Private cargo As Boolean 'es oficial, o no 
+        Sub New(ByVal nom As String, ByVal dir As String, ByVal num As Integer, ByVal es As Boolean)
+            Nombre = nom
+            Direccion = dir
+            dni = num
+            cargo = es
+
+        End Sub
         Public ReadOnly Property GetNombre() As String
             Get
                 Return Nombre
